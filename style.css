@@ -1812,3 +1812,60 @@ line-height:35px;
 color:#fff;
 
 }
+/* Earnings Section */
+
+.earnings{
+
+max-width:1000px;
+
+margin:100px auto;
+
+padding:20px;
+
+}
+
+.earnings h1{
+
+text-align:center;
+
+color:#d8b4fe;
+
+margin-bottom:40px;
+
+}
+
+.earnings-card{
+
+background:rgba(88,63,122,.30);
+
+border:2px solid #b388ff;
+
+border-radius:25px;
+
+padding:35px;
+
+backdrop-filter:blur(15px);
+
+box-shadow:0 10px 30px rgba(0,0,0,.2);
+
+}
+
+.earnings-card ul{
+
+padding-left:25px;
+
+line-height:35px;
+
+color:white;
+
+}
+
+.earnings-card p{
+
+margin-top:20px;
+
+color:#f5eeff;
+
+line-height:28px;
+
+}
