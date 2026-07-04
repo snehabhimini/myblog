@@ -2967,4 +2967,10 @@ footer{
     font-size: 24px;
     font-weight: 700;
 }
+.logo{
+    position: absolute;
+    left: 40px;
+    font-size: 24px;
+    font-weight: 700;
+}
 
