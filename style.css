@@ -2961,5 +2961,10 @@ footer{
 .footer-links a:hover{
     color:#ffffff;
 }
-
+.logo{
+    position: absolute;
+    left: 40px;
+    font-size: 24px;
+    font-weight: 700;
+}
 
