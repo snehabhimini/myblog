@@ -2925,5 +2925,17 @@ transform:translateY(0);
 }
 
 }
+.navbar ul{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+    list-style:none;
+}
+/* Extra space at bottom */
+
+body{
+    padding-bottom:120px;
+}
 
 
