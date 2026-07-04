@@ -10,9 +10,9 @@ body{
 /* ===== NAVBAR ===== */
 .navbar{
     display:flex;
-    justify-content:space-between;
+    justify-content:flex-start;
     align-items:center;
-    padding:20px 8%;
+    padding:20px 80px;
     background:rgba(255,255,255,0.05);
     backdrop-filter:blur(10px);
     position:fixed;
@@ -21,6 +21,8 @@ body{
 }
 
 .navbar ul{
+    justify-content: flex-start;
+    align-items:center
     list-style:none;
     display:flex;
     gap:25px;
