@@ -2974,3 +2974,20 @@ footer{
     font-weight: 700;
 }
 
+.blog3-page h1{
+    color:#f4d4f7;
+}
+
+.blog3-page .blog-date{
+    color:white;
+}
+
+.blog3-page .blog-text h2{
+    color:#f4d4f7;
+}
+
+.blog3-page .blog-text p{
+    color:#f7f0c8;
+    line-height:1.9;
+    font-size:22px;
+}
