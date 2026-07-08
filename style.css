@@ -3050,3 +3050,30 @@ footer{
     }
 
 }
+.blog-image{
+    width:85%;
+    max-width:900px;
+    display:block;
+    margin:40px auto;
+    border:6px solid #8A5CF6;
+    border-radius:28px;
+    box-shadow:0 0 25px rgba(138,92,246,.5);
+    animation:fadeImage 1.2s ease;
+    transition:.4s;
+}
+
+.blog-image:hover{
+    transform:scale(1.02);
+    box-shadow:0 0 35px rgba(138,92,246,.8);
+}
+
+@keyframes fadeImage{
+    from{
+        opacity:0;
+        transform:translateY(30px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
