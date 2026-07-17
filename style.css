@@ -7,6 +7,46 @@ body{
     color:white;
 }
 
+/* ================= NAVBAR ================= */
+
+.navbar{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 7%;
+    background:rgba(18,12,35,.55);
+    backdrop-filter:blur(18px);
+    z-index:999;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:700;
+    color:#d8b4fe;
+    letter-spacing:1px;
+}
+
+.navbar ul{
+    display:flex;
+    list-style:none;
+    gap:35px;
+}
+
+.navbar ul li a{
+    color:white;
+    text-decoration:none;
+    transition:.4s;
+    font-weight:500;
+}
+
+.navbar ul li a:hover{
+    color:#c084fc;
+}
+
 /* ===== NAVBAR ===== */
 .navbar{
     display:flex;
